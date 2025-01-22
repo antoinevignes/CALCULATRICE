@@ -45,7 +45,10 @@ const reducer = (state, action) => {
         state.displayInput === "Error" ||
         state.displayInput === "x" ||
         state.displayInput === "-" ||
-        state.displayInput === "+"
+        state.displayInput === "+" ||
+        state.displayInput === "Errorx" ||
+        state.displayInput === "Error+" ||
+        state.displayInput === "Error-"
       ) {
         return {
           ...state,
